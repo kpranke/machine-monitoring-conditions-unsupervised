@@ -56,7 +56,6 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to u
 - */images* a folder containing visuals included in README.txt
 - *kmeans_model_2.sav* a pickle file containing kmeans model with nr of clusters = 2
 - *kmeans_model_3.sav* a pickle file containing kmeans model with nr of clusters = 3
-- 
 ## Installation
 
  *git clone* the repo 
