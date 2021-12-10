@@ -1,0 +1,17 @@
+,file_path,machine_type,correlation
+0,./df_6dB_valve_fe_ta_imb.csv,id_00,0.5420905373277507
+1,./df_6dB_valve_fe_ta_imb.csv,id_02,0.11970859557404143
+2,./df_6dB_valve_fe_ta_imb.csv,id_04,0.42727243488347305
+3,./df_6dB_valve_fe_ta_imb.csv,id_06,0.21434050939069182
+4,./df_6dB_pump_fe_ta_imb.csv,id_00,0.7962922131543442
+5,./df_6dB_pump_fe_ta_imb.csv,id_02,0.5876371418092035
+6,./df_6dB_pump_fe_ta_imb.csv,id_04,1.0
+7,./df_6dB_pump_fe_ta_imb.csv,id_06,0.533318720241911
+8,./df_6dB_slider_fe_ta_imb.csv,id_00,1.0
+9,./df_6dB_slider_fe_ta_imb.csv,id_02,0.7844645405527382
+10,./df_6dB_slider_fe_ta_imb.csv,id_04,0.6521115084990977
+11,./df_6dB_slider_fe_ta_imb.csv,id_06,0.375083983257143
+12,./df_6dB_fan_fe_ta_imb.csv,id_00,0.5481240094074903
+13,./df_6dB_fan_fe_ta_imb.csv,id_02,0.5459150752205517
+14,./df_6dB_fan_fe_ta_imb.csv,id_04,0.8902126970550921
+15,./df_6dB_fan_fe_ta_imb.csv,id_06,0.7997361066774537
