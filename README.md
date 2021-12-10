@@ -78,8 +78,8 @@ This clearly shows that for some machines, the kmeans clusters very accurately c
 
 However, for the majority, the results were not satifactory. In the second case, the suggestion is to try out different features for the same algorithm or try another one. 
 *Kmeans nr_clusters = 2* 
-The initial analysis of dividing files into 3 clusters has been performed. 
-
+The initial analysis of dividing files into 3 clusters has been performed. The 3D kmeans model (nr_clusters = 3) presented below for the slider id_00, where colors indicate kmeans clusters and shapes indicate provided labels, suggests that with the good correlation between clusters and labels, we can clearly distinct one cluster corresponding with abnormal sounds and two clusters with the normal sound. This could indicate that potentially the normal sound labels could be further split into normal sounds and transitional sounds. This finding shall be investigated further.
+![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/3Dkmeans_3clusters.png)!
 
 ## Timeline
 
