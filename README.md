@@ -77,6 +77,9 @@ This clearly shows that for some machines, the kmeans clusters very accurately c
 ![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/cluster_distrib.png)![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/label_distrib.png)
 
 However, for the majority, the results were not satifactory. In the second case, the suggestion is to try out different features for the same algorithm or try another one. 
+*Kmeans nr_clusters = 2* 
+The initial analysis of dividing files into 3 clusters has been performed. 
+
 
 ## Timeline
 
