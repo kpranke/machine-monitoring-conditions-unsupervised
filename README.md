@@ -14,7 +14,7 @@
 1. [Personal situation](#personal-situation)
 
 ## Description
-This project is a part of the Becode.org AI Bootcamp programme. The goal is to use unsupervised ML method for anomalous sound detection in industrial machines for a fictional company Acme Corporation. Data samples of normal and abnormal sounds of valves, pumps, fans and sliders are provided. The samples have been labelled. The goal of the task is to a) verify if clustering audio files may work for detecting normal and abnormal sounds b) verify if clustering can detect transition between normal and abnormal sounds. The project is a continuation of [the previous project]((https://github.com/kpranke/machine-monitoring-conditions)) related to the same data, but with the use of a supervised classifier. 
+This project is a part of the Becode.org AI Bootcamp programme. The goal is to use unsupervised ML method for anomalous sound detection in industrial machines for a fictional company Acme Corporation. Data samples of normal and abnormal sounds of valves, pumps, fans and sliders are provided. The samples have been labelled. The goal of the task is to a) verify if clustering audio files may work for detecting normal and abnormal sounds b) verify if clustering can detect transition between normal and abnormal sounds. The project is a continuation of [ the previous project ]((https://github.com/kpranke/machine-monitoring-conditions)) related to the same data, but with the use of a supervised classifier. 
 
 ![factory](https://images.unsplash.com/photo-1513828583688-c52646db42da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)
 
