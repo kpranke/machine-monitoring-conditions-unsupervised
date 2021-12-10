@@ -45,9 +45,13 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to u
 
 ## Repo Architecture
 
-- *(1) README.md* 
-
-
+- *README.md* a .md file contains the documentation of the project, this is the file you are currently reading
+- *Extract feature 6dB machine.ipynb* a jupyter notebook file that contains functions necessary to extract features from data per machine and save them to .csv files (the files are also provided in the repo)
+-  *ML model - one machine id.ipynb* a jupyter notebook file with analysis of both labelled targets as well as kmeans clustering results for one machine: slider id_00 (used with 2 and 3 clusters for insights on correlation between labels and clusters as well as identifying a possibility of detecting a transitional cluster)
+-  *Validation for all machines.ipynb* a jupyter notebook file containing code necessary to run the kmeans algorithm for all macines and machine types (16 in total) and calculating corellation between labels and clusters
+- *anomaly_files.csv* a csv file necessary to run *Extract feature 6dB machine.ipynb* notebook
+- *Download folders with audio data.ipynb* a jupyter notebook file necessary to download audio files
+- *df_6dB_fan_fe_ta_imb.csv*, *df_6dB_pump_fe_ta_imb.csv*, *df_6dB_slider_fe_ta_imb.csv*, *df_6dB_valve_fe_ta_imb.csv* .csv files with features of respective machines: fan, pump, slider, valve
 ## Installation
 
  *git clone* the repo 
