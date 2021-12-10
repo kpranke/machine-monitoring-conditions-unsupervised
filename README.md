@@ -52,12 +52,20 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to u
 - *anomaly_files.csv* a csv file necessary to run *Extract feature 6dB machine.ipynb* notebook
 - *Download folders with audio data.ipynb* a jupyter notebook file necessary to download audio files
 - *df_6dB_fan_fe_ta_imb.csv*, *df_6dB_pump_fe_ta_imb.csv*, *df_6dB_slider_fe_ta_imb.csv*, *df_6dB_valve_fe_ta_imb.csv* .csv files with features of respective machines: fan, pump, slider, valve
+- */images* a folder containing visuals included in README.txt
 ## Installation
 
  *git clone* the repo 
 
 
 ## Usage
+
+## Findings
+
+During [the first part of the project](https://github.com/kpranke/machine-monitoring-conditions), in collaboration with my colleague, we used the sklearn classifier to be able to detect the normal and abnormal sound labels. AI model was trained with 70% of the data, 15% of data used for testing, and 15% for validation. We achieved 0.89 F1-score and detected overfitting. One of the reasons for overfitting was undersampled data of abnormal sounds. We concluded the reliability of the model should be imprved, among others, by addressing the undersampling and overfitting.
+
+During the current part of the challenge, I worked on my own. I tested using kmeans unsupervised ML algorithm with the number of clusters 2 and 3. I also compared the available labels (normal\abnormal sounds) with the results of running kmeans with 2 clusters. Below are my findings:
+
 
 
 
