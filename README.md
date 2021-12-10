@@ -87,8 +87,10 @@ Below are my findings:
 
 *Kmeans nr_clusters = 2* 
 In order to evaluate the esults of running kmeans algorithm with 2 clusters, a correlation between provided labels (normal/abnormal) and clusters have been calculated per each machine type. The tables below present correlation between labels and clusters per machine type and per machines: mean of 13 mfccs, mean of zero_crossing_rate, mean of rms.
+
 ![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/mach_id_corr.png)
 ![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/mach_corr.png)
+
 This clearly shows that for some machines, the kmeans clusters very accurately correspond with the provided labels. The below example of distribution of the clusters for a pumo id_00 and the distribution of the labels for the same machine supports this statement:
 ![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/cluster_distrib.png)![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/label_distrib.png)
 The 3D model below represents the distribution of clusters with kmeans nr_clusters = 2 for the slider id_00, where colors indicate kmeans clusters and shapes indicate provided labels. This visualisation can be compared with the distribution of 3 clusters (below). ![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/3Dkmeans_2clusters.png)!
