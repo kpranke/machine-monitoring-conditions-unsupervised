@@ -75,7 +75,7 @@ In order to evaluate the esults of running kmeans algorithm with 2 clusters, a c
 ![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/mach_corr.png)
 This clearly shows that for some machines, the kmeans clusters very accurately correspond with the provided labels. The below example of distribution of the clusters for a pumo id_00 and the distribution of the labels for the same machine supports this statement:
 ![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/cluster_distrib.png)![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/label_distrib.png)
-The 3D model below represents the distribution of clusters with kmeans nr_clusters = 2 for the slider id_00, where colors indicate kmeans clusters and shapes indicate provided labels. This visualisation can be compared with the distribution of 3 clusters (below).
+The 3D model below represents the distribution of clusters with kmeans nr_clusters = 2 for the slider id_00, where colors indicate kmeans clusters and shapes indicate provided labels. This visualisation can be compared with the distribution of 3 clusters (below). ![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/3Dkmeans_2clusters.png)!
 
 However, for the majority, the results were not satifactory. In the second case, the suggestion is to try out different features for the same algorithm or try another one. 
 *Kmeans nr_clusters = 2* 
