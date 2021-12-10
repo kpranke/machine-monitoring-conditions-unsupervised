@@ -69,9 +69,10 @@ During [the first part of the project](https://github.com/kpranke/machine-monito
 During the current part of the challenge entailing using unsupervised learning, I worked on my own. I tested using kmeans unsupervised ML algorithm with the number of clusters 2 and 3. I also compared the available labels (normal\abnormal sounds) with the results of running kmeans with 2 clusters. Below are my findings:
 
 *Kmeans nr_clusters = 2* 
-In order to evaluate the esults of running kmeans algorithm with 2 clusters, a correlation between provided labels (normal/abnormal) and clusters have been calculated per each machine type. The table below presents the correlation per machine type:
+In order to evaluate the esults of running kmeans algorithm with 2 clusters, a correlation between provided labels (normal/abnormal) and clusters have been calculated per each machine type. The tables below present correlation between labels and clusters per machine type and per machines:
 ![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/mach_id_corr.png)
-
+![mach_id_corr](https://github.com/kpranke/machine-monitoring-conditions-unsupervised/blob/main/images/mach_corr.png)
+This clearly shows that for some machines, the kmeans clusters very accurately correspond with the provided labels. However, for the majority, the results vere not satifactory. 
 
 ## Timeline
 
