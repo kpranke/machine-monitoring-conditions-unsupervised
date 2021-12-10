@@ -64,7 +64,7 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to u
 
 During [the first part of the project](https://github.com/kpranke/machine-monitoring-conditions), in collaboration with my colleague, we used the sklearn classifier to be able to detect the normal and abnormal sound labels. AI model was trained with 70% of the data, 15% of data used for testing, and 15% for validation. We achieved 0.89 F1-score and detected overfitting. One of the reasons for overfitting was undersampled data of abnormal sounds. We concluded the reliability of the model should be imprved, among others, by addressing the undersampling and overfitting.
 
-During the current part of the challenge, I worked on my own. I tested using kmeans unsupervised ML algorithm with the number of clusters 2 and 3. I also compared the available labels (normal\abnormal sounds) with the results of running kmeans with 2 clusters. Below are my findings:
+During the current part of the challenge entailing using unsupervised learning, I worked on my own. I tested using kmeans unsupervised ML algorithm with the number of clusters 2 and 3. I also compared the available labels (normal\abnormal sounds) with the results of running kmeans with 2 clusters. Below are my findings:
 
 
 
