@@ -35,7 +35,7 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to u
 - The model provides initial insights to identify the transitory states.
 
 ### Limitations
-
+- current features and algorithm provide good results only for a number of machines
 
 ### Further Developments
 
@@ -59,8 +59,19 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to u
 
  *git clone* the repo 
 
-
 ## Usage
+
+The most straightforward way to test the model is to run on e of the pickle files: 
+- *kmeans_model_2.sav* a pickle file containing kmeans model with nr of clusters = 2
+- *kmeans_model_3.sav* a pickle file containing kmeans model with nr of clusters = 3
+
+However, the rest of files is provided in case one would like to try out different features (*Extract feature 6dB machine.ipynb*) or check the validation for all the machines (**Validation for all machines.ipynb**).
+
+The order of running files is the following:
+
+1.  *Download folders with audio data.ipynb*
+2.  *Extract feature 6dB machine.ipynb*
+3.  *ML model - one machine id.ipynb* or *Validation for all machines.ipynb*
 
 ## Findings
 
