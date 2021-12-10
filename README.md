@@ -1,4 +1,4 @@
-# Anomalous Sound Detection for predictive maintenance of industrial machines
+# Anomalous Sound Detection for predictive maintenance of industrial machines - unsupervised learning
 
 ## Table of Contents
 1. [Description](#description)
